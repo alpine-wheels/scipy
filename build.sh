@@ -3,7 +3,7 @@
 set -e
 
 # install dependencies
-apk add --no-cache gfortran g++ openblas-dev
+apk add --no-cache gfortran g++ linux-headers openblas-dev
 
 # runtime dependencies
 # apk add --no-cache libstdc++ openblas
